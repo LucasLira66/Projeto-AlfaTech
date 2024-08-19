@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.limitar-secao {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.topo-conteudo {
+    position: relative;
+    padding: 35px 0;
+}
+
+.topo-logo {
+    position: relative;
+}
+
+.topo-logo img {
+    height: 80px;
+}
+
+.topo-logo div {
+    position: absolute;
+    top: 0;
+    left: 95px;
+}
+
+.topo-logo div p {
+    color: #2f86d6;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.topo-links {
+    position: absolute;
+    right: 10px;
+    top: 65px;
+}
+
+.topo-links a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px;
+    color: #233032;
+}
+
+.banner {
+    background: #2f86d6;
+}
+
+.container-banner {
+    position: relative;
+    padding: 180px 0px;
+}
+
+.container-banner div {
+    width: 470px;
+    color: #fff;
+    padding: 5px;
+}
+
+.container-banner div p {
+    font-size: 16px;
+}
+
+.container-banner div h2 {
+    font-size: 28px;
+    padding: 5px;
+}
+
+.container-banner img {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 70px;
+}
+
+.primeira-propaganda {
+    background: #233032;
+}
+.fita-propaganda {
+    padding: 40px 0px;
+    position: relative;
+}
+
+.propaganda-conteudo {
+    width: 600px;
+    color: #fff;
+}
+
+.propaganda-conteudo h2 {
+    font-size: 24px;
+}
+
+.propaganda-conteudo p {
+    font-size: 16px;
+}
+
+.tabela-preco {
+    position: absolute;
+    right: 0;
+    top: 55px;
+}
+
+.tabela-preco-1 div a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    background: #2f86d6;
+}
+
+.segunda-propaganda {
+    background: #2f86d6;
+}
+
+.tabela-preco-2 div a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    background: #233032;
+}
+
+.guia-informacao {
+    padding: 100px 0px;
+    position: relative;
+    background: #fff;
+}
+
+.informacao-conteudo {
+    width: 900px;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.texto-azul {
+    color: #2f86d6;
+}
+
+.informacao-img {
+    position: relative;
+    height: 240px;
+}
+
+.informacao-img div {
+    width: 33%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+}
+
+.informacao-img div img {
+    width: 100px;
+}
+
+.informacao-img .img-2{
+    left: 340px;
+}
+
+.informacao-img .img-3 {
+    right: 0;
+}
+
+.informacao-img div h2 {
+    font-size: 18px;
+    padding: 20px;
+}
+
+.informacao-img div p {
+    font-size: 16px;
+    padding: 5px;
+}
+
+.container-planos-principal {
+    padding: 100px 0px;
+    background: #f4f4f4;
+}
+
+.titulo-tabela {
+    text-align: center;
+    font-size: 20px;
+}
+
+.container-planos {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}
+
+table {
+    box-shadow: #2f86d6 0px 0px 20px 10px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #fff;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border-left: #efefef solid 1px;
+}
+
+thead td {
+    font-size: 13px;
+    color: #a89f9f;
+}
+
+thead td img {
+    height: 80px;
+}
+
+.linha-impar {
+    font-size: 16px;
+    background: #f1f3f7
+}
+
+.linha-par {
+    font-size: 16px;
+    background: #fff;
+}
+
+tbody tr {
+    font-weight: 600;
+}
+
+.rodape {
+    padding: 100px 0px;
+    position: relative;
+}
+
+.contatos {
+    text-align: center;
+    line-height: 40px;
+    font-weight: 500px;
+    font-size: 16px;
+}
+
+.contato-logo {
+    width: 320px;
+    left: 40%;
+    padding-bottom: 50px;
+}
+
+.paragrafo-rodape {
+    padding: 20px 0px;
+    position: absolute;
+    background-color: #f1f3f7;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.botao-topo {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.botao-topo img {
+    border-radius: 20px;
+    width: 50px;
+    opacity: 66%;
+}

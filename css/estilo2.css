@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.limitar-secao {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bg-azul-topo {
+    background: #2f86d6;
+}
+
+.topo-conteudo {
+    position: relative;
+    padding: 35px 0;
+}
+
+.topo-logo {
+    position: relative;
+}
+
+.topo-logo img {
+    height: 80px;
+}
+
+.topo-logo div {
+    position: absolute;
+    top: 0;
+    left: 95px;
+}
+
+.topo-logo div p {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.topo-links {
+    position: absolute;
+    right: 10px;
+    top: 65px;
+}
+
+.topo-links a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.tabela-preco {
+    padding: 100px 0px;
+}
+
+.container-preco {
+    display: flex;
+    flex-direction: column;
+}
+
+table tbody td {
+    padding: 20px 40px;
+}
+
+thead td {
+    padding-top: 20px;
+}
+
+thead td, th {
+    border-left: #ffffff solid 1px;
+}
+
+table {
+    background: #ffffff;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.ponto-azul {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background-color: #2f86d6;
+    border-radius: 20px;
+}
+.cinza-tabela {
+    background: #f1f3f7;
+}
+
+table tr {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+tbody td {
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+}
+
+tr .left {
+    text-align: left;
+    font-weight: 500;
+    border-bottom: #ffffff solid 1px;
+}
+
+thead td {
+    font-size: 16px;
+    color: #a89f9f;
+    text-align: center;
+}
+
+thead th {
+    font-size: 36px;
+}
+
+.rodape {
+    padding: 100px 0px;
+    position: relative;
+    background: #2f86d6;
+}
+
+.contatos {
+    text-align: center;
+    line-height: 40px;
+    font-weight: 500px;
+    font-size: 16px;
+}
+
+.texto-azul {
+    color: #2f86d6;
+}
+
+.contato-logo {
+    width: 320px;
+    left: 40%;
+    padding-bottom: 50px;
+}
+
+.paragrafo-rodape {
+    padding: 20px 0px;
+    position: absolute;
+    background-color: #f1f3f7;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.botao-topo {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.botao-topo img {
+    border-radius: 20px;
+    width: 50px;
+    opacity: 66%;
+}
